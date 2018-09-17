@@ -16,14 +16,14 @@ import com.craftsvilla.generic.BaseTest;
 	}*/
 
 
-	@FindBy(id="buynow")
-	private WebElement buynow;
+/*	@FindBy(id="buynow")
+	private WebElement buynow;*/
 
 
 //Utilization
-	public void clickOnBuyNow()
+/*	public void clickOnBuyNow()
 	{
 		verifyElementPresent(buynow);
 		buynow.click();
 	}
-}
+}*/

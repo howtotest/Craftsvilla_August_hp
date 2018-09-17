@@ -20,11 +20,14 @@ public class SignInPage extends BasePage
 	@FindBy(id="set-password")
 	private WebElement setpassword;
 	
-//	@FindBy(id="loginCheck")
-//	private WebElement logininwelcome;
+	@FindBy(id="loginCheck")
+	private WebElement logininwelcome;
 	
 	@FindBy(id="userRegister")
 	private WebElement registerBtn;
+	
+/*	@FindBy(id="loginLogoutResponse")
+	private WebElement userAccount;*/
 	
 	public SignInPage(WebDriver driver)
 	{
@@ -61,6 +64,12 @@ public class SignInPage extends BasePage
 		verifyElementPresent(registerBtn);
 		registerBtn.click();
 	}
+	
+/*	public void clickUserAccount()
+	{
+		verifyElementPresent(userAccount);
+		userAccount.click();
+	}*/
 	
 	public void waitForHomePage(String title)
 	{

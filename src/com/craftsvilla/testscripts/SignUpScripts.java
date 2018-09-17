@@ -17,7 +17,7 @@ public class SignUpScripts extends BaseTest
 		hp=new HomePage(driver);
 		sp=new SignInPage( driver);
 		
-		String[][] credentials=ReadExcel.getData(filePath,"User_SignUp");
+		String[][] credentials=ReadExcel.getData(filePath,"User_SignUp");  //Input Data having data file and the first sheet in Excel
 		for(int i=1; i<credentials.length;i++)
 		{
 			String email=credentials[i][0];
@@ -28,7 +28,7 @@ public class SignUpScripts extends BaseTest
 			sp.clickContinue();
 			sp.setPassword(password);
 			sp.clickOnRegister();
-			hp.gotoAccount();
+     		hp.gotoAccount();
 			hp.clickOnLogout();
 			sp.waitForHomePage("Ethnic Wear - Buy Ethnic Wear in Latest Designs Online at Craftsvilla");
 //			hp.clickOnCart();

@@ -36,6 +36,12 @@ public class HomePage extends BasePage  //Extends is relationship between 2 clas
 	@FindBy(xpath="//i[@class='icon first_arrow hidden-xs']")
 	private WebElement account;
 	
+/*	@FindBy(xpath="a//[contains(@href,'hidden-xs user-name']")
+    private WebElement userAccount;*/
+	
+	@FindBy(xpath="*[@id='loginLogoutResponse']")
+	private WebElement loginlogout;
+	
 	@FindBy(xpath="//a[@href='https://cvaccount.craftsvilla.com/customer/account/logout']")
 	private WebElement logoutBtn;
 	
@@ -78,10 +84,17 @@ public class HomePage extends BasePage  //Extends is relationship between 2 clas
 		mouseHover(driver,account);
 	}
 	
+/*   public void clickUserAccount()
+	{
+		verifyElementPresent(userAccount);
+		userAccount.click();		
+	}*/
+	
 	public void clickOnLogout()
 	{
 		verifyElementPresent(logoutBtn);
 		logoutBtn.click();
 	}
+
 	
 }

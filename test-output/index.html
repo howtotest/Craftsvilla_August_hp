@@ -135,8 +135,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
 System info: host: &apos;DESKTOP-SQ74VUK&apos;, ip: &apos;192.168.1.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\Dell\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52997}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
-Session ID: 7fdf333f1877f2900f41c77f06fa3ca0
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\Dell\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53683}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: e6f269f3da51a4ab975f0e55c6831078
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -149,7 +149,7 @@ Session ID: 7fdf333f1877f2900f41c77f06fa3ca0
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.craftsvilla.pompage.HomePage.clickOnLogout(HomePage.java:84)
+	at com.craftsvilla.pompage.HomePage.clickOnLogout(HomePage.java:93)
 	at com.craftsvilla.testscripts.SignUpScripts.signUp(SignUpScripts.java:32)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
@@ -214,7 +214,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'signUp')
 data.setCell(0, 2, 'com.craftsvilla.testscripts.SignUpScripts')
-data.setCell(0, 3, 17545);
+data.setCell(0, 3, 17314);
 window.suiteTableData['Craftsvilla']= { tableData: data, tableDiv: 'times-div-Craftsvilla'}
 return data;
 }
@@ -233,14 +233,14 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">signUp</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (7fdf333f1877f2900f41c77f06fa3ca0)] -> xpath: //span[text()='Sign In']] found:</span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (7fdf333f1877f2900f41c77f06fa3ca0)] -> id: emailId] found:</span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (7fdf333f1877f2900f41c77f06fa3ca0)] -> id: continueBtn] found:</span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (7fdf333f1877f2900f41c77f06fa3ca0)] -> id: set-password] found:</span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (7fdf333f1877f2900f41c77f06fa3ca0)] -> id: userRegister] found:</span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (7fdf333f1877f2900f41c77f06fa3ca0)] -> xpath: //i[@class='icon first_arrow hidden-xs']] found:</span>
-                <span class="reporter-method-output">mousehovered on [[ChromeDriver: chrome on XP (7fdf333f1877f2900f41c77f06fa3ca0)] -> xpath: //i[@class='icon first_arrow hidden-xs']]</span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (7fdf333f1877f2900f41c77f06fa3ca0)] -> xpath: //a[@href='https://cvaccount.craftsvilla.com/customer/account/logout']] not found</span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (e6f269f3da51a4ab975f0e55c6831078)] -> xpath: //span[text()='Sign In']] found:</span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (e6f269f3da51a4ab975f0e55c6831078)] -> id: emailId] found:</span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (e6f269f3da51a4ab975f0e55c6831078)] -> id: continueBtn] found:</span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (e6f269f3da51a4ab975f0e55c6831078)] -> id: set-password] found:</span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (e6f269f3da51a4ab975f0e55c6831078)] -> id: userRegister] found:</span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (e6f269f3da51a4ab975f0e55c6831078)] -> xpath: //i[@class='icon first_arrow hidden-xs']] found:</span>
+                <span class="reporter-method-output">mousehovered on [[ChromeDriver: chrome on XP (e6f269f3da51a4ab975f0e55c6831078)] -> xpath: //i[@class='icon first_arrow hidden-xs']]</span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on XP (e6f269f3da51a4ab975f0e55c6831078)] -> xpath: //a[@href='https://cvaccount.craftsvilla.com/customer/account/logout']] not found</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -267,11 +267,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">signUp</span>
-                <span class="method-start">5355 ms</span>
+                <span class="method-start">7910 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeApp</span>
-                <span class="method-start">22904 ms</span>
+                <span class="method-start">25227 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
